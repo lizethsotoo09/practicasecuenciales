@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="../styles/estilos.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Determinar el cobro del estacionamiento</h1>
+    <form>
+        <label for="horas">Horas</label>
+        <input type="text" id="horas" name="horasestacionamiento"
+        placeholder="Ingresa la cantidad de horas">
+        <button type="button" onclick="calcular()" >Convertir</button>
+
+    </form>
+    <p id="cobrototal"> Cobro total:</p>
+    <script src="../scripts/vinculadoresestacionamiento.js" ></script>
+</body>
+</html> 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/estilos.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Vinculadores</h1>
+    <form>
+        <label for="num1">Valor 1</label>
+        <input type="text" id="num1" name="num1"
+        placeholder="Ingresa un numero">
+        <label for="num2">Valor 2</label>
+        <input type="text" id="num2" name="num2"
+        placeholder="Ingresa un numero">
+        <button type="button" onclick="sumar()" >Sumar</button>
+        <button type="button" onclick="restar()" >Restar</button>
+        <button type="button" onclick="multiplicar()" >Multiplicar</button>
+        <button type="button" onclick="raiz()" >Raiz</button>
+
+    </form>
+    <p id="resultado"> </p>
+    <script src="../scripts/vinculadores.js" ></script>
+</body>
+</html>

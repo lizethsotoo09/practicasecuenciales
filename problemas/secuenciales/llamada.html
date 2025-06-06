@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="../styles/estilos.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Determinar el costo de una llamada</h1>
+    <form>
+        <label for="minutos">Duración de la llamada en minutos</label>
+        <input type="text" id="minutos" name="minllamada"
+        placeholder="Ingresa la cantidad de minutos">
+        <label for="costo"> Costo por minuto</label>
+        <input type="text" id="costo" name="costominutos"
+        placeholder="Ingresa el costo">
+        <button type="button" onclick="calcular()" >Sacar costo</button>
+
+    </form>
+    <p id="costototal"> Costo:</p>
+    <script src="../scripts/vinculadoresllamada.js" ></script>
+</body>
+</html
